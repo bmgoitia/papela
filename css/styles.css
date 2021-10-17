@@ -1,0 +1,161 @@
+
+body{
+  width: 100%;
+  background-color: rgba(221 221 221 / 60%);
+}
+
+
+#container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Playfair Display', serif;
+ /* background-color: rgb(175, 175, 175); */
+}
+
+
+#pGrid{
+  margin: 20px;
+}
+
+#container .bg-light{
+  background-color: #5d5e5e !important;
+}
+
+.form-check-label{
+  color: #fff;
+}
+
+
+
+
+
+#generateP{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-grey{
+  color: #fff;
+  background-color:#3f3f3f;
+  border-color: #a8a8a8;
+  text-transform: uppercase;
+}
+
+.btn-grey:hover {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+
+#generateP button{
+  font-weight: 800;
+  letter-spacing: .8px;
+}
+
+
+#apPlant{
+  text-align: end;
+  font-size: 1.2rem;
+  
+}
+
+#apPlant .form-check-label{
+  font-family:'Times New Roman', Times, seri;
+  text-transform: uppercase;
+  color: #001c4c;
+}
+
+#plantAp2{
+  margin-left: 20px;
+}
+
+
+#container .border{
+  border: 3px solid #a7a7a7 !important;
+  text-align: end;
+}
+
+
+
+
+
+/* Apertura 1 bis */
+
+#ap1Bis{
+  display: none;
+}
+
+
+
+
+/* Final buttons */
+
+#finalButtons{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+#bExtra, #bOutput{
+  text-align: center;
+}
+
+#finalButtons button{
+  font-size:.9rem;
+  border: 2px solid #686868;
+  text-transform: uppercase;
+  font-weight: 900;
+  color:#383838;
+  -webkit-box-shadow: 4px 3px 10px 1px rgba(0,0,0,0.87);
+  -moz-box-shadow: 4px 3px 10px 1px rgba(0,0,0,0.87);
+  box-shadow: 4px 3px 10px 1px rgba(0,0,0,0.87);
+}
+
+#finalButtons button:hover {
+  font-size: 1rem;
+}
+
+
+
+/* Extra Blocks */
+
+#extraBlocks{
+  display: none;
+}
+
+#extraBlocksSelect{
+  margin: 0 auto;
+  max-width:400px;
+}
+
+
+
+/* Print extra blocks */
+
+#printExtraBlocks{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#printExtraBlocks .row{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+/* OUTPUT */
+
+#output{
+  display: none;
+}
+
+
+tr, td{
+  border: 1px solid #585858;
+  padding: 8px;
+}
+
