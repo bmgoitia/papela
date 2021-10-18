@@ -32,7 +32,7 @@ let data = [];
 
 
         moment.locale("ca");
-        let fecha = moment().format("LL");
+        let fecha = moment().add(1,'days').format("LL");
 
         if(!fechaSet){
             $("#output h3").append(`<span> ${fecha} </span>`)
